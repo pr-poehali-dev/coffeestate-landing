@@ -19,10 +19,10 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Open Sans', 'system-ui', 'sans-serif'],
-				serif: ['Playfair Display', 'serif'],
-				heading: ['Playfair Display', 'serif'],
-				body: ['Open Sans', 'sans-serif']
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+				serif: ['Montserrat', 'sans-serif'],
+				heading: ['Montserrat', 'sans-serif'],
+				body: ['Inter', 'sans-serif']
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -31,12 +31,12 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					DEFAULT: '#1a1a1a',
+					foreground: '#ffffff'
 				},
 				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					DEFAULT: '#f8f9fa',
+					foreground: '#1a1a1a'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -47,8 +47,15 @@ export default {
 					foreground: 'hsl(var(--muted-foreground))'
 				},
 				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					DEFAULT: '#8B4513',
+					foreground: '#ffffff'
+				},
+				coffee: {
+					dark: '#2D1B14',
+					medium: '#8B4513',
+					light: '#D2B48C',
+					cream: '#FFF8DC',
+					gold: '#DAA520'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
