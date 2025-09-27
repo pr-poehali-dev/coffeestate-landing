@@ -326,7 +326,7 @@ export default function Index() {
                 <AccordionContent className="text-primary/80 font-body">
                   {item.answer}
                 </AccordionContent>
-              </AccordionContent>
+              </AccordionItem>
             ))}
           </Accordion>
         </div>
